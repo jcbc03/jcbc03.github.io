@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#163126">
+    <link rel="icon" href="logo.png">
     <meta name="lomadee" content="2324685" />
 
     <title>Caça Ofertas Brasil — promoções e cupons do dia</title>
@@ -59,10 +60,8 @@ header.site .bar {
   letter-spacing: -0.02em;
 }
 .mark {
-  width: 2rem; height: 2rem; border-radius: 999px;
-  display: grid; place-items: center;
-  background: #f4a261; color: var(--forest);
-  font-size: 1rem;
+  width: 2.5rem; height: 2.5rem;
+  object-fit: contain;
 }
 .nav { display: flex; flex-wrap: wrap; gap: 0.2rem 1rem; }
 .nav a { color: #efe8da; text-decoration: none; font-size: 0.95rem; }
@@ -228,7 +227,7 @@ footer.site a:hover { color: var(--ink); }
     <header class="site">
       <div class="wrap bar">
         <a class="wordmark" href="index.html">
-          <span class="mark" aria-hidden="true">🔍</span>
+          <img class="mark" src="logo.png" alt="Caça Ofertas Brasil">
           <span>Caça Ofertas Brasil</span>
         </a>
         <nav class="nav" aria-label="Principal">
